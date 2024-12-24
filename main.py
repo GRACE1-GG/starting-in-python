@@ -1,4 +1,6 @@
 #this is my first python program
+from getopt import gnu_getopt
+
 print("Hello World. i like kuku")
 print("its really cool")
 
@@ -20,7 +22,7 @@ friends = 2
 friends //= 2
 print(friends)
 
-#Typecasting-converts from one data type to anotherstr(), int(), float(), bool()
+#Typecasting-converts from one data type to another str(), int(), float(), bool()
 #type()
 print(type(is_student))
 print(type(gpa))
@@ -35,4 +37,19 @@ name = input("enter your name: ")
 # age += 1
 print (f"hi {name}")
 
+#REVISION
+user_name = gg
+print(f"my username is {user_name}")
+
+house_number =2
+print(f"my house number is {house_number}")
+
+pi = 3.14
+print("pi is 3.14")
 #if statements
+is_admin =True
+
+if is_admin:
+    print("Admin")
+else:
+    print("NOT Admin") #END OF REVISION
